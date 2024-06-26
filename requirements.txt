@@ -1,0 +1,7 @@
+# Support for Super Mario Bros gym:
+gym==0.25.1
+gym-super-mario-bros==7.3.0
+
+# Support for YOLO.
+ultralytics
+opencv-python
