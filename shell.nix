@@ -27,6 +27,8 @@ in pkgs.mkShell rec {
     pythonPackages.matplotlib
     pythonPackages.scipy
 
+    pythonPackages.pynput
+
   ];
 
   # Now we can execute any commands within the virtual environment.

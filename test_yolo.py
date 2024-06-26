@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 
+
 # Load your pose model
 model = YOLO('yolov8n-pose.pt')
 
 # Run prediction
-path_to_image = 'https://ultralytics.com/images/bus.jpg'
-results = model(path_to_image, show=True, save=True)
+results = model(source=0, show=True, conf=0.3, save=True)
 
 # TODO: parse the results into posture.
